@@ -1,0 +1,38 @@
+{
+  "name": "creo-gears",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "tsx --test tests/geometry.test.ts",
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test:browser": "node tests/browser.mjs",
+    "format": "prettier --write src tests index.html vite.config.ts tsconfig.json package.json README.md",
+    "format:check": "prettier --check src tests index.html vite.config.ts tsconfig.json package.json README.md"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "Gearforge: local gear design, mating previews, manufacturing allowances and CAD exports",
+  "dependencies": {
+    "@react-three/drei": "^10.7.9",
+    "@react-three/fiber": "^9.8.2",
+    "lucide-react": "^1.73.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "three": "^0.187.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.65.1",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@types/three": "^0.187.0",
+    "@vitejs/plugin-react": "^6.3.0",
+    "prettier": "^3.10.1",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.8"
+  },
+  "type": "module",
+  "private": true
+}
