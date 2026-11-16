@@ -22,6 +22,15 @@ npm run test:browser
 
 Browser checks use installed Microsoft Edge through Playwright. Geometry tests run without a browser. Build output is in `dist/`.
 
+## Close the app
+
+1. In the terminal running `npm run dev` (or `npm run preview`), press **Ctrl+C** to stop the local server. If Windows asks `Terminate batch job (Y/N)?`, type **Y** and press Enter.
+2. Close the Gearforge browser tab. Closing the tab alone does not stop the server.
+
+Browser autosave keeps your latest design on the same browser and local address. Use **Save project** to download a JSON backup before closing, especially before clearing browser data.
+
+To reopen it, run `npm run dev` from this folder and open the local URL printed in the terminal.
+
 ## Use
 
 1. Choose one of nine families: spur, helical, herringbone, straight bevel, spiral bevel, internal, rack and pinion, worm drive, or wheel-led worm drive.
